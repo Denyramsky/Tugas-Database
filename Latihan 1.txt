@@ -1,0 +1,21 @@
+_______tugas 1_________
+
+
+
+- show database;
+
+- create database latihan1;
+
+- use latihan1;
+
+- create table biodata
+  -> (nama varchar(50),
+  -> alamat text);
+
+-  desc biodata;
+
+- alter table biodata ADD COLOUMN nim int(10) FIRST;
+
+- desc biodata;
+
+- alter table biodata

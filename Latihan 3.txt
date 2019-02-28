@@ -1,0 +1,32 @@
+_____________praktikum 3_______________
+
+1.> select * from pegawai where not (gaji=2000000) and not (gaji=1250000);
+	
+  > select * from pegawai  where (gaji<>2000000)  and (gaji<>1250000);
+
+2.select * from pegawai where tunjangan is NULL;
+
+3.select * from pegawai where tunjangan is not NULL;
+
+4.select count(idpegawai) from pegawai;
+
+5.select sum(gaji) as jumlah from pegawai;
+
+6.select avg(gaji) as jumlah from pegawai;
+
+7.select min(gaji) as terendah from pegawai;
+
+8. select max(gaji) as terendah from pegawai;
+
+II
+
+1. select * from pet;
+
+	 select owner,count(species) from pet group  by owner;
+
+2.select (species) from pet;
+
+3.select sex,count(sex) from pet group by sex;
+
+4.select species,sex,count(species) as jumlah  from pet group  by species;
+

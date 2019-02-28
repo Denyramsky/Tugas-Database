@@ -1,0 +1,33 @@
+__________latihan 2____________
+
+langkah pertama
+
+ 1.  CREATE DATABASE latihan;
+
+ 2.   use latihan;
+
+ 3.   desc mahasiswa;
+
+ 4.   INSERT INTO mahasiswa
+
+ 5.   SELECT * FROM mahasiswa;
+
+ 6.   SELECT * FROM mahasiswa;
+
+ 7.   UPDATE mahasiswa
+
+ 8.   SELECT * FROM mahasiswa;
+
+ 9.   SELECT * FROM mahasiswa WHERE nim ="311710397";
+
+ 10.  SELECT * FROM mahasiswa;
+
+ 11.  SELECT nim, nama, jeniskelamin, tanggallahir FROM mahasiswa
+
+ 12.  SELECT * FROM mahasiswa
+
+ 13.  SELECT * FROM mahasiswa
+
+ 14.  SELECT nama, alamatjalan FROM mahasiswa;
+
+ 15.  SELECT * FROM mahasiswa
